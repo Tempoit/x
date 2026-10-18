@@ -1,0 +1,52 @@
+{
+    "id": "tempoit.app.sub",
+    "name": "Tempoit 吾爱破解签到",
+    "author": "@Tempoit",
+    "icon": "https://avatars.githubusercontent.com/u/50571734?s=460&u=808616a26243d457cae2e41ffa728895e1e5ed4b&v=4",
+    "repo": "https://github.com/Tempoit/x",
+    "apps": [
+        {
+            "id": "tempoit.wuai",
+            "name": "吾爱破解",
+            "descs_html": [
+                "<a style='color:#686de0;display:block;text-align:center;' target='_blank' href='https://raw.githubusercontent.com/Tempoit/x/main/Tasks/52pojie.js'>脚本链接（修复版）</a>"
+            ],
+            "keys": [
+                "wuai_debug",
+                "wuai_cookie",
+                "wuai_bark_key"
+            ],
+            "settings": [
+                {
+                    "id": "wuai_debug",
+                    "name": "是否开启调试模式",
+                    "val": false,
+                    "type": "boolean",
+                    "desc": ""
+                },
+                {
+                    "id": "wuai_cookie",
+                    "name": "Cookie",
+                    "val": null,
+                    "type": "textarea",
+                    "rows": 5,
+                    "desc": ""
+                },
+                {
+                    "id": "wuai_bark_key",
+                    "name": "Bark密钥",
+                    "val": null,
+                    "type": "text",
+                    "desc": "填写后只使用Bark推送"
+                }
+            ],
+            "author": "@Tempoit",
+            "repo": "https://github.com/Tempoit/x",
+            "icons": [
+                "https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png",
+                "https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png"
+            ],
+            "script": "https://raw.githubusercontent.com/Tempoit/x/main/Tasks/52pojie.js"
+        }
+    ]
+}
