@@ -1,0 +1,8 @@
+[mitm]
+hostname = %APPEND% www.javbus.com
+
+[rewrite_local]
+^https?:\/\/www\.javbus\.com\/forum\/home\.php\?mod= url script-request-header https://raw.githubusercontent.com/Tempoit/x/main/Tasks/javbus.js
+
+[task_local]
+11 7 * * * https://raw.githubusercontent.com/Tempoit/x/main/Tasks/javbus.js, tag=巴士论坛签到, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/bus.png, enabled=true
