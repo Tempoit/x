@@ -1,0 +1,8 @@
+[mitm]
+hostname = %APPEND% www.52pojie.cn
+
+[rewrite_local]
+^https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/Tempoit/x/main/Tasks/52pojie.js
+
+[task_local]
+30 7 * * * https://raw.githubusercontent.com/Tempoit/x/main/Tasks/52pojie.js, tag=吾爱破解签到, img-url=https://raw.githubusercontent.com/Yuheng0101/X/main/Assets/52pojie.png, enabled=true
